@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HW Abierto y monitoreos ambientales comunitarios - UNSAM2021</title>
+    <title>Fabricaciones desde el diálogo</title>
     <meta charset="utf-8">
     <style>
       /* @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -35,8 +35,8 @@
      <link rel="stylesheet" type="text/css" href="./css/card.css" />
      <link rel="stylesheet" type="text/css" href="./css/lines.css" />
      <link rel="stylesheet" type="text/css" href="./css/filters.css" />
-     <link rel="stylesheet" type="text/css" href="./fonts/remixicon.css" />
-     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body>
     <textarea id="source">
@@ -46,414 +46,322 @@ class: typo, typo-selection
 
 ---
 class: center, middle
-count: false
 
-.left[![logo cenit](imgs/resized.jpg)]<br>
+.north[<br>.right[<img src="imgs/unq.png" width="13%"> <img src="imgs/resized.jpg" width="20%">]<br>]
+## Fabricaciones desde el diálogo:<br>Hardware científico abierto y democratización desde la "periferia"<br>
+##### <small><span class="code-highlight">Doctorado en Ciencia y Tecnología<span><br>Universidad Nacional de Quilmes<br>Marzo 2021<br></small><br><br><br>
 
-# <span class="oc-bg-lime-1">Hardware abierto</span> y <span class="oc-bg-lime-1">monitoreos ambientales comunitarios</span>
-#### Una mirada desde los <br><span class="oc-bg-teal-1">estudios sociales de la ciencia y tecnologia</span>
-##### Julieta C. Arancio <br><br><br>
-
-
-
-<br>Curso de verano <code class="remark-inline-code">¿Cómo hacer investigación?</code> UNSAM 2021
-
+.left[<span class="oc-bg-teal-3">Tesista:</span> Julieta C. Arancio<br> <span class="oc-bg-teal-3">Directora:</span> Dra. Valeria Arza<br> <span class="oc-bg-teal-3">Co-director:</span> Dr. Mariano Fressoli]
 
 ???
-Bienvenidos!
-
-Muchas gracias a los organizadores del curso por invitarme y a todes por sumarse.
-
-Mi nombre es Julieta Arancio, soy investigadora en el centro de investigaciones para la transformacion, o CENIT-UNSAM.
-
-En diciembre termine mi doctorado en ciencia y tecnologia de la universidad de quilmes, y a fin de marzo defiendo mi tesis. En mayo empiezo mi postdoctorado, un poco entre Inglaterra, Estados Unidos y Tanzania. Pero de eso hablamos un poco mas adelante.
-
-CENIT es un lugar especial porque esta lleno de investigadores con perfiles muy diferentes, enfocados desde distintos angulos en temas que podriamos llamar "estudios de la innovacion". 
-
-Por ejemplo, como dice aca la presentacion, mi area de trabajo son los estudios sociales de la ciencia y la tecnologia. Pero tambien comparto piso con economistas, politologos, antropologos que analizan sus temas de estudio desde escuelas diferentes. Esto hace que las charlas siempre sean muy interesantes.
-
-Para entrar en tema, en estos 20' voy a contarles un poco que es esto de los ESCyT.
-Despues del break vamos al estudio de caso en particular, y despues de otro break vamos a hacer una actividad cortita para no dormirnos sobre el teclado.
-
-Antes de seguir voy a pasarles un link aca en el chat, que es un anotador colaborativo. Lo pueden abrir en un navegador desde la computadora o el celular, e ir dejando notas que todos podemos ver. 
-
-Les muestro: lo primero que tienen que hacer es dejar su nombre aca asi sabemos quien escribe. Lo pueden ir usando mientras hablo para dejar preguntas, y me gustaria que anoten sus comentarios.
 
 ---
-class: center, middle
-
-# Notas compartidas
-[https://hackmd.io/s/HylrT9IMu](https://hackmd.io/s/HylrT9IMu)
-
-???
-Antes de seguir voy a pasarles un link aca en el chat, que es un anotador colaborativo. Lo pueden abrir en un navegador desde la computadora o el celular, e ir dejando notas que todos podemos ver. 
-
-Les muestro: lo primero que tienen que hacer es dejar su nombre aca asi sabemos quien escribe. Lo pueden ir usando mientras hablo para dejar preguntas, y me gustaria que anoten sus comentarios.
-
----
-class: center, middle
-
-<a href="https://twitter.com/elonmusk/status/1358930781314322433" target="_blank">![elon musk tweet](imgs/resizedmusk.png)</a>
+# Agenda
+***
+#####<span class="oc-bg-teal-4">**Introducción al problema**</span>   
+##### Preguntas de investigación    
+##### Marco teórico     
+##### Metodología         
+##### Resultados         
+##### Contribuciones y limitaciones    
+##### Implicancias y próximos pasos
 
 ???
-Hace poquito me aparecio este tuit de elon musk, que si alguien todavia no sabe quien es, es un empresario estadounidense duenio de Tesla y SpaceX. 
-
-Es una figura bien controversial. Para muchos es un genio que va a hacer que lleguemos mas rapido a Marte, paradigma del emprendedor exitoso, que va a lograr imponer el auto electrico a traves de Tesla Motors. Para otros es un billonario que fue altamente subsidiado por el estado norteamericano, es poco eficiente y encima precariza a sus empleados.
-
-Pero mas alla de la figura de Musk, me intereso el video que acompania el tuit. El tuit anuncia que va a poner 100 millones como premio para la mejor solucion tecnologica para capturar carbono de la atmosfera.
-
-Veamos el video. 
-
-Bueno, se entiende, aunque esta en ingles? La idea es que Musk va a poner plata como incentivo o premio para las mejores soluciones tecnologicas que permitan capturar carbono de la atmosfera y arreglar este lio en el que se metio la humanidad con el calentamiento global.
-
-Me gustaria que me dejen opiniones en la seccion 1 del anotador, sobre este video. Cualquier comentario esta bien eh.
 
 
 ---
-class: center, middle
+background-image:url(imgs/lock.jpg)
 
-![tweet anti 5G](imgs/EVcar-resized.png)
-
-???
-Este es un articulo que aparecio en POLITICO, un portal de noticias de politica de estados unidos.
-
-Describe basicamente como lo que impide que todos usemos autos electricos en la actualidad es el lobby de las companias petroleras.
-
-Que piensan de esto? De nuevo pueden dejar comentarios en el bloc virtual.
-
-Fijense la foto, son cargadores de auto. El concepto del auto electrico esta dando vueltas desde los 70. Los lobbies tambien.
-
+.abs-layout.p-m.top-10.left-0.width-47.oc-bg-black.opacity-80.oc-teal-3[
+<big>Las herramientas necesarias para hacer ciencia son, en su mayoría, <span class="oc-bg-teal-9">privativas</span></big>
+]
 ---
-class: center, middle
+background-image:url(imgs/gosh2.jpg)
 
-### <span class="bg-nord13">Neutras</span>
-
-### <span class="oc-bg-lime-3">Autonomas</span>
-
-### <span class="oc-bg-grape-2">Universales</span>
-
-### <span class="oc-bg-red-3">Lineales</span>
-
-### <span class="oc-bg-cyan-3">Artefactuales</span>
-
-### <code class="remark-inline-code">Tecnologia / Sociedad</code>
-
-???
-Aunque parece que estan en polos opuestos, estas visiones tienen muchas cosas en comun.
-
-Ambas asumen por ejemplo, que la tecnologia es neutra: no hay tecnologia buena o mala, hay usos buenos o malos. Sin embargo no se cuestiona el diseno o produccion. Un martillo puede usarse para muchas cosas, pero la funcion para la que fue optimamente diseniado es para golpear. 
-
-Sigo aceptando comentarios y reacciones en el bloc...
-
-La tecnologia es autonoma, evoluciona mas alla de nuestro control en un camino lineal de progreso. Y hay un rumbo universal que sigue el cambio tecnologico, mas alla del contexto donde suceda. Un auto electrico funciona igual en Buenos Aires que en Paris.
-
-Por ultimo, estas visiones nos llevan a pensar a las tecnologias unidimensionalmente, como artefactos. Esto hace que los analisis sean cortos: este modelo de auto electrico es mas eficiente, va a ser mejor. No importa que no haya cargadores en las calles de buenos aires. 
-
-Es una vision en la cual la tecnoolgia va por un lado, la sociedad por otro.
-
-Ustedes que piensan? Sigo recibiendo ideas en el pad.
-
-
----
-class: center, middle
-
-## **Las visiones** <span class="oc-bg-teal-3">deterministas</span> **nos limitan**
-
-???
-Las dos slides anteriores trataron de mostrar ejemplos de dos visiones deterministas, la primera tecnologica y la segunda social.
-
-El determinimos asume que todo acontecimiento está causalmente determinado por la irrompible cadena causa-consecuencia y, por tanto, el estado actual "determina" en algún sentido el futuro. 
-
-En el caso del tecnologico, que domina el sentido comun, el desarrollo de artefactos se concibe dentro de una logica de progreso acumulativo, aumentando la capacidad de los artefactos para resolver problemas.
-
-En el caso del social, los artefactos se asumen como producto exclusivo de las relaciones sociales. Si la misma tecnologia cambiara de manos, seria otra la historia.
-
-Las visiones deterministas nos limitan porque:
-- O nos hacen resignarnos a aceptar "lo que baja" sin cuestionarlo aun cuando nos perjudica, 
-- O nos pone en una posicion de resistencia poco realista
-
-Un problema grande que tenemos es cuando el sentido comun, determinista, se vuelve politica. Porque se incentivan modelos de desarrollo a nivel pais que conciben a la tecnologia como aislada de su contexto.
-
-
----
-
-background-image:url(imgs/web2.jpg)
-
-.abs-layout.p-m.top-20.left-2.width-47.oc-bg-black.opacity-90.nord-dark[
-
-## La tecnologia como <br> **<span class="oc-bg-teal-6">una configuracion que funciona</span>** <small>(Rip y Kemp, 1998)</small>
-
-Lo socio-tecnico como un "tejido sin costuras"(Hughes, 1986)
-<br>
-<br>]
-
-
-???
-Los ESCT son un campo relativamente joven. 
-
-El paradigma dominante en la disciplina es constructivista. Uno de los conceptos mas importantes el de LO SOCIOTECNICO, como un tejido sin costuras de Hughes, que plantea que no hay una division tecnologia por un lado, sociedad por otro.
-
-Los artefactos, las practicas, los valores, las normas, forman una red que sostiene el cumplimiento de una funcion.
-
-Los artefactos estan influenciados por las preferencias y practicas de los usuarios, que a su vez estan diseniados por equipos con sus propias percepciones, incentivados por regulaciones, etc.
-
-El desarrollo del auto electrico existe hace anios. Si no pasa a ser la norma, es por mucho mas que el lobby petrolero. Es porque para mucha gente el auto es simbolo de autonomia, porque las curriculas en las escuelas de ingenieria o disenio no cambian tan rapido, porque las estaciones de servicio estan pensadas y ubicadas en un modelo de auto a nafta. El otro dia escuchaba un podcast sobre autos de lujo, donde los disenadores inventan ruidos para convencer al que maneja que esta manejando alta maquina.
-
-Quizas lo mas lindo de la infraestructura es que cuando funciona, la invisibilizamos. Es cuando no funciona o cuando cambia muy rapido, que nos damos cuenta que existe.
-
-
----
-
-class: center, middle
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/87QwWpzVy7I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Las artefactos tambien ejercen <span class="oc-bg-yellow-3">poder</span> 
-
-???
-Mi filosofo de la tecnologia favorito, Andrew Feenberg, dice que es paradojico que con la influencia enorme que tiene la tech en la vida cotidiana, aun no haya sido democratizada o cuestionada como si se cuestionan otras esferas: la economia, la salud, la educacion.
-
-Dentro de los ESCT existen varias corrientes y escuelas de pensamiento. Una que es muy importante son los estudios feministas de la tecnologia. Una de sus preguntas fundamentales es la distribucion de poder entre usuarios. 
-
-y aca viene lo mas radical: en esta configuracion que funciona, las normas, los intereses, la educacion, los valores obviamente juegan un rol en la tecnologia.
-
-Pero los artefactos tambien: porque sus disenios encarnan las ideas de sus diseniadores.
-
-Un disenio tiene el poder de determinar quien puede usarlo, y para que. Tmb puede excluir. 
-
-Les doy un ejemplo de un caso de estudio de mi tesis. Unos investigadores peruanos quieren usar un GPS para rastrear como el movimiento de la poblacion afecta la transmision de la malaria en la selva amazonica. 
-
-Compran uno, lo importan, un lio barbaro, bastante caro. El aparato es negro, se pone en el brazo, tiene una carcasa de plastico.
-
-El calor y la humedad de la selva hacen que a los dos dias no ande mas, y como es incomodo de llevar en el brazo para los sujetos del estudio, que suelen salir a pescar, se les cae en la selva. Como es negro, imposible encontrarlo cuando se acaba su bateria.
-
-Se les ocurren otros ejemplos?
-
----
-class: center, middle
-
-![black box](imgs/bb.png)
-
-#### Volver <span class="oc-bg-cyan-3">visible</span> el entramado sociotecnico
-#### Iluminar los <span class="oc-bg-red-3">mecanismos</span> del cambio y la estabilidad
-
-???
-Una de las formas a traves de la cual los ESCT intentan superar los determinismos es iluminar un poco esa actual caja negra, generalmente invisible, que llamamos infraestructura.
-
-Una caja negra es un proceso del que sabemos nada mas que entra y que sale pero no que pasa en el medio.
-
-Captar la complejidad del cambio tecnologico, entender por que algunas tecnologias funcionan y otras no, y que es que funcionen para ciertos usos y ciertos usuarios. 
-
-Para ello, una cosa muy util es analizar los procesos de cambio tecnologico mientras suceden. Porque como deciamos, una vez cerrados se invisibilizan los factores. Se olvidan, por ejemplo, los disenios alternativos que respondian a intereses de otros usuarios.
-
-
----
-
-class: center, middle
-
-#### Como las practicas de <span class="oc-bg-cyan-3">hardware abierto</span> pueden contribuir a democratizar la tecnologia?
-<br>
-#### Como se inscriben <span class="oc-bg-yellow-3">valores diferentes</span> en la tecnologia?
-<br>
-#### Que consecuencias tiene esto cuando hablamos de herramientas para la <span class="oc-bg-teal-3">ciencia en la "periferia"</span>?
-
-???
-Teniendo en cuenta toda esta presentacion, a mi me interesan estas preguntas.
-
-En lo personal, los determinimos me cansan mucho. No me interesa el solucionismo tecnologico, hay incontables ejemplos de como falla. Tampoco me interesa la via de la resistencia, no me motiva.
-
-Me parece que hay un lugar para abordar la creacion de tecnologias diferentes desde el deseo, las ganas de crear, de experimentar, y de sobreponerse a la injusticia de nunca ser tenido en cuenta como usuaria.
-
----
-background-image:url(imgs/eter.png)
-
-.abs-layout.p-m.top-10.left-2.width-47.oc-bg-black.opacity-80.nord-dark[
-#### *<span class="oc-bg-red-8">Estudio de casos</span>*
-### Explorar **<span class="oc-bg-teal-8">practicas emergentes</span>** de disenio y construccion de tecnologias
-<br><br><br> ![gosh logo](imgs/gosh.png)
-
+.abs-layout.p-m.top-20.left-0.width-47.oc-bg-black.opacity-80.oc-teal-2[
+<big>Abrir las herramientas científicas para que <i>"cualquier persona las pueda <span class="oc-bg-teal-9">utilizar, obtener, estudiar, modificar, compartir o comercializar</span>"</i></big><br><br> (GOSH, 2016)
 ]
 
 ???
-Mi tema de trabajo del doctorado y tmb del posdoc es el hardware cientifico abierto y como puede contribuir a democratizar la tecnologia en el sur global. 
-
-El caso de la ciencia me parece interesante porque gano mucha traccion en los ultimos anios, hay mucha gente a la cual la tech para la ciencia no le funciona y empieza a fabricar sus propios artefactos. Usan impresion 3d, arduinos, licencias abiertas, repositorios y foros para intercambiar aprendizajes
-
-Como funciona esto desde el sur? En el caso de mi tesis, seleccione proyectos en africa y latinoamerica, dentro y fuera de la academia, que usan herramientas cuyos disenos se comparten por internet y cualquiera puede adaptar.
-
-La metodologia de estudio de casos me permite explorar y comprender estos procesos "in the making". Hacer visible esa infraestructura que damos por hecha.
-
-Porque lo que se estudia es lo diferente, lo hago desde un abordaje cualitativo y exploratorio, haciendo entrevistas en profundidad, observacion participante y no participante, analizando documentos online y offline. 
-
 ---
 class: center, middle
 
-# <span class="oc-bg-grape-3">Intervalo</span>
-
-???
-En el proximo bloque les voy a compartir uno de esos casos
-
----
-background-image:url(imgs/vuela.png)
-
-.abs-layout.p-m.bottom-0.left-2.width-47.oc-bg-black.opacity-80.nord-dark[
-## Vuela, drones de codigo abierto
-vuela.cc
+.abs-layout.p-m.top-31.left-20.width-60.oc-bg-black.opacity-80.nord14.center[
+<big>"Democratización": ¿Otra caja negra?</big>
 ]
 
+???
+---
+# Agenda
+***
+##### Introducción al problema
+##### <span class="oc-bg-teal-4">**Preguntas de investigación**</span>    
+##### Marco teórico     
+##### Metodología   
+##### Resultados         
+##### Contribuciones y limitaciones    
+##### Implicancias y próximos pasos    
 
 ???
-Bueno, en esta segunda mitad quiero presentar uno de los casos que estudie para mi tesis. 
 
-Vuela es un proyecto chileno argentino que desarrolla drones de codigo abierto, de bajo costo, reparables localmente y faciles de usar. 
-
-De hecho pueden encontrar toda la documentacion en su pagina web.
 ---
-background-image:url(imgs/tree.jpg)
+class: center, middle 
 
-.abs-layout.p-m.top-20.left-2.width-47.oc-bg-black.opacity-80.nord-dark[
+<img src="imgs/gosh.png" width="20%">
+<br><br>
+#### <small><span class="oc-bg-cyan-7 oc-cyan-1">Pregunta 1</span></small><br>¿De qué manera GOSH se constituye como un nicho estratégico de innovación?
+
+#### <small><span class="oc-bg-cyan-7 oc-cyan-1">Pregunta 2</span></small><br>¿Cómo los proyectos GOSH promueven la participación de actores nuevos y más diversos en la producción de tecnología “útil”?
+
+#### <small><span class="oc-bg-cyan-7 oc-cyan-1">Pregunta 3</span></small><br> ¿En qué medida y cómo los participantes en los proyectos GOSH construyen capacidades?
+
+???
+
+---
+# Agenda
+***
+##### Introducción al problema
+##### Preguntas de investigación   
+##### <span class="oc-bg-teal-4">**Marco teórico**</span>      
+##### Metodología  
+##### Resultados         
+##### Contribuciones y limitaciones    
+##### Implicancias y próximos pasos    
+
+???
+
+---
+class: center, middle 
+![](imgs/mt.png)
+
+???
+
+---
+# Agenda
+***
+##### Introducción al problema
+##### Preguntas de investigación   
+##### Marco teórico     
+##### <span class="oc-bg-teal-4">**Metodología**</span>          
+##### Resultados   
+##### Contribuciones y limitaciones    
+##### Implicancias y próximos pasos    
+
+???
+---
+
+## **Abordaje**<br><br>
+
+##<span class="oc-bg-lime-1">constructivista/relativista</span>
+
+##<span class="oc-bg-grape-1">tecnologías contingentes y situadas</span>
+
+##<span class="oc-bg-red-1">exploratorio cualitativo</span>
+
+##<span class="oc-bg-teal-1">ciencia abierta</span>
+
+---
+## **Estudio del colectivo (P1)**
 <br>
-### Caminos **<span class="oc-bg-teal-8">poco lineales</span>** 
-<br>
-]
+## Observación participante <span class="oc-bg-lime-1">2017-2019</span>
+
+## Entrevistas a 13 informantes clave <span class="oc-bg-lime-1">2019-2020</span>
+
+## Análisis de documentación <span class="oc-bg-lime-1">2017-2020</span>
+
+---
+## **Estudio de casos múltiples (P2, P3)**
+
+#### <br>Bloques: <span class="oc-bg-lime-1">académicos y comunitarios</span>
+
+#### Al menos una entrevista <span class="oc-bg-lime-1">por cada rol por proyecto</span>
+#### Análisis de documentación <span class="oc-bg-lime-1">pública</span>
+#### Observación participante <span class="oc-bg-lime-1">cuando fue posible</span>
+
+
+.abs-layout.left-55.top-50[
+<img src="imgs/criterios.png" width="95%">]
 
 ???
-Antes de seguir, cuando fui a la reunion con los organizadores del curso dijeron algo que me intereso mucho, y es que plantearon la posibilidad de contar como uno llego hasta donde esta
-
-No me gusta mucho hablar de mi pero creo que puede ser util porque yo entre en contacto con todo este mundo de la investigacion un poco por el costado, con mucho de suerte 
-
-Me recibi de lic en cs ambientales en la UBA en 2011, y a partir de ahi me dedique a trabajar en el sector privado como consultora.
-
-La verdad es que en un punto me aburri, y me encontre con alguien que me dijo que en CENIT estaban tomando investigadores asistentes, para un proyecto de investigacion en agroecologia, que a mi me interesaba mucho porque militaba en una organizacion que conectaba consumidores y productores en CABA
-
-Como CENIT es un centro interdisciplinario, los sociologos y economistas querian a alguien que entendiera de que la iba un poco la cuestion y hablara el idioma.
-
-Ese era un proyecto financiado por un organismo internacional, donde entre en contacto con los conceptos que CENIT estaba estudiando sobre ciencia abierta en latinoamerica.
-
-Cuando se termino el financiamiento me dijern que si queria seguir trabajando me dijeron que necesitaba presentarme a beca doctoral de conicet.
-
-Presente un proyecto que estudiaba las iniciativas del INTA-IPAF de co construccion de herramientas abiertas para la agroecologia. 
-
-Ese proyecto salio, y cuando empece la beca se desfinanciaron los IPAF. 
-
-Tuve que cambiar el proyecto, pase mucho tiempo muy preocupada porque no sabia que hacer hasta que me encontre con GOSH.
-
-La forma que le di al proyecto, las preguntas enfocadas desde como las tecnologias se apropian localmente para que nos sirvan para lo que queremos, la mirada feminista, todo tuvo que ver con lo que me pasaba a mi en ese momento:
-- trabajaba como productora en la tribu, una radio comunitaria
-- era parte del partido pirata, militando el software libre
-- estaba muy involucrada con orgas feministas
-
-Asisti a un evento gosh en 2017 y conoci a toda esta gente haciendo cosas, que me desperto muchas preguntas.
-
-Reorientamos el proyecto, y despues tuve la oportunidad de sumar casos de africa.
-
-termine estudiando algo que esta creciendo muchisimo, y tuve la ENRME suerte de que me ofrecieran aplicar a un fondo estadounidense para el postdoc, para hacer recomendaciones de politica universitaria promoviendo el hw abierto
-
-Con esto quiero decir que aunque al inicio yo etaba re perdida y quise dejar el doctorado 20 veces, creo que esta bueno ver como todo va complejizando y sumando a una pregunta que es bien contextual.
 
 ---
+
 class: center, middle
 
-.column-2.font-sm.mb-xs[
-![](imgs/haiti.png) 
-![](imgs/malbec.png) 
-]
+| Gorgas tracker | Open Flexure | Vuela | KossamTor |
+|-|-|-|-|
+| Perú | Reino Unido y Tanzania | Chile | Camerún |
+| Universidad Peruana Cayetano Heredia | STICLab, Ifakara Health Institute | Centro vecinal Melipilla y PROCISUR | Mboa Lab |
+| Localizador GPS personalizado para estudiar la dispersión de la malaria con las comunidades indígenas de la Amazonía | Microscopio apto investigación a partir de impresión 3D de bajo costo para el diagnóstico de malaria | Drones abiertos accesibles, de bajo costo para ciencia comunitaria | Incubadoras de bajo costo para producción familiar de yogur |
+| <img src="imgs/gorgas2.png" width="60%"> | <img src="imgs/of.png"> | <img src="imgs/vuela3.png"  width="100%"> | <img src="imgs/kt.png"> |
 
 ???
-Volviendo, los organizadores de Vuela me los encontre en ese primer encuentro en Chile (un ing agronomo de inta balcarce y una trabajadora social de chile)
 
-Su camino tb es poco lineal
-
-Comenzaron con talleres en Melipilla para trabajar en un barrio en las afueras de Santiago, como una excusa para integrar a los inmigrantes y darles herramientas 
-
-Comenzaron replicando un modelo de dron espaniol, abierto que encontraron en internet
-
-despues de meses de talleres lograron una version mejorada
-
-Sin embargo todavia no era un instrumento cientifico, y como se quedaron sin plata, aplicaron a un fondo de PROCISUR
-
-Ese fondo les permitio mejorar el dron en 7 paises de latinoamerica, ahora es un instrumento de bajo costo, reparable y accesible localmente para investigar en cambio global
-
----
-class: center, middle
-
-## De que forma Vuela fomenta la participacion de <br><span class="oc-bg-teal-1">mas y mas diversos actores</span> en la fabricacion de tecnologia?
-
-
----
-# **Para abordar las preguntas...**
-
-### - Construir un <span class="oc-bg-yellow-1">marco teorico</span>
-
-### - Construir las herramientas o <span class="oc-bg-yellow-1">protocolos</span> para cada caso
-
-### - <span class="oc-bg-yellow-1">Analizar</span> documentacion online, asistir a talleres, hacer entrevistas...
-
-### - <span class="oc-bg-yellow-1">Conectar</span> ideas, conceptos, comparar con otros casos
 
 ---
 class: middle, center
 
-# **La ciencia abierta empieza por casa**
-
-![](imgs/github.png)
-
----
-class: middle, center
-
-# **La ciencia abierta empieza por casa**
-
-![](imgs/taguette.png)
+<img src="imgs/opensci.png" width="140%">
+???
 
 ---
-# **Algunos resultados**
+# Agenda
+***
+##### Introducción al problema
+##### Preguntas de investigación   
+##### Marco teórico     
+##### Metodología        
+##### <span class="oc-bg-teal-4">**Resultados**</span>     
+##### Contribuciones y limitaciones    
+##### Implicancias y próximos pasos    
 
-#### El rol de los <span class="oc-bg-grape-1">espacios extra academicos</span> como clave
-#### La <span class="oc-bg-grape-1">flexibilidad</span> en la participacion
-#### <span class="oc-bg-grape-1">Modularidad</span> de los disenios
-#### Procesos <span class="oc-bg-grape-1">iterativos</span> para mejorar diseos
-#### <span class="oc-bg-grape-1">Formacion de pares</span> para incluir
-#### Documentacion de <span class="oc-bg-grape-1">calidad</span> refleja procesos intensivos de pares
-#### Capacidades de <span class="oc-bg-grape-1">reparacion y uso locales</span> 
+???
 ---
 class: center, middle
 
-# **Investigacion que aporte a los sujetos desde <br><span class="oc-bg-orange-1">la reflexion</span>**
+.north.left[<span class="oc-bg-lime-2">Pregunta 1</span>]
+¿De qué manera GOSH se constituye como un nicho estratégico de innovación?
+
+| Ciencia abierta | Justicia ambiental | Transhacktivismo | Pedagogías críticas |
+|:-:|:-:|:-:|:-:|
+| Transparencia y legitimación | Metodologías de organización | Elemento lúdico creativo | Metodologías de colaboración |
+
+---
+## Lo lúdico como cohesión y como elaboración de objetos deseables, que son pieza de comunicacion en si mismos
 
 
 ---
-class: center, middle
+## Lecciones de otros MIB
 
-# <span class="oc-bg-grape-3">Intervalo</span>
+Pluralidad de framings y fragmentación
+
+Tensiones maximas ante la institucionalildad
+
+La apertura como un habilitador de trayectorias alternativas
 
 ???
 
 ---
-class: center, middle
+# Nuevos  participantes 
+¿Cómo los proyectos GOSH promueven la participación de actores nuevos y más diversos en la producción de tecnología “útil”?
 
-# **Actividad en grupos**
-
-## Nos vemos en el pad
-
----
-class: center, middle
-
-# <span class="oc-bg-grape-1">**Gracias!**</span>
-
-jarancio@unsam.edu.ar
-
-Tw: @cassandreces
+#### roles: usuarios, desarrolladores y fabricantes, segun objetivos 
+#### La diversidad en función de los espacios, tanto de genero (academia cero) como de expertise (aumenta lejos de la academia) 
+#### Los roles híbridos académicos activistas facilitando el diálogo
+#### participan diferente en funcion de los objetivos (mas participation no es neceriamente mas beneficio directo)
 
 ---
-class: center, middle
+Cómo?
+#### El denominador común: modular, iterativo, orientado a usuaria, abierto
+#### La formación de pares como el instrumento de creación de un idioma común
+#### Documentacion de calidad que refleja procesos intensivos de pares
+#### En evolución constante, multiples versiones
 
-![](imgs/jam.png)
+
+---
+¿En qué medida y cómo los participantes en los proyectos GOSH construyen capacidades?
+
+Para qué? (permite evaluar proyectos más profundamente)
+#### Capacidades que varían de acuerdo a los objetivos
+#### Abrir espacio a nuevas ideas
+#### Ganar autonomía 
+#### Generar ingresos
+
+???
+---
+# Conclusiones 
+
+Se trata de procesos que incorporan nuevos actores, habilitando diálogos que se materializa en problemas de conocimiento y tecnologías altamente contextualizadas, robustas, de forma diferente segun sus objetivos
+
+Como se materializa?
+
+- materiales disponibles
+- interfaces accesibles
+- reparables localmente y personalizables
+- en constante adaptación para responder a nuevas preguntas o problemas
+
+Claves: libre circulacion de la info, formacion de pares, metodos iterativos que bajan barreras de acceso
+
+---
+Construcción de problemas de conocimiento que reflejan más fielmente los problemas sociales que quieren abordar
+Permite colaboraciones inesperadas, incluso asincrónicas (Vuela y PROCISUR)
+
+|  | Open Flexure | Vuela | KossamTor |
+|:-:|:-:|:-:|:-:|
+| incorporó la movilidad humana como eje de análisis en el Plan Malaria Cero del Ministerio de Salud peruano | detectaron limitante en numero de tecnicos, no de equipos: desarrollo de IA para automatizar tareas rutinarias | la interacción con investigadores permitió  que  la  comunidad  construya  un problema de conocimiento a partir de una situación de riesgo que los preocupa y por la cual vienen reclamando sin éxito | reorientó el objetivo principal del proyecto original desde vender la incubadora a las universidades hacía la '  de yogur por parte de las mujeres de la comunidad vecina |
+
+---
+# Agenda
+***
+##### Introducción al problema
+##### Preguntas de investigación   
+##### Marco teórico     
+##### Metodología        
+##### Resultados   
+##### <span class="oc-bg-teal-4">**Contribuciones y limitaciones**</span>      
+##### Implicancias y próximos pasos     
+
+???
+
+
+---
+# Contribuciones
+
+- Teóricas: reforzar la agencia artefactual y en análisis feminista en los estudios de MIB
+- Metodológicas: uso de herramientas de ciencia abierta en STS
+- Empíricas: 
+    - GOSH
+    - Iniciativas del sur
+
+---
+# Agenda
+***
+##### Introducción al problema
+##### Preguntas de investigación   
+##### Marco teórico     
+##### Metodología        
+##### Resultados   
+##### Contribuciones y limitaciones      
+##### <span class="oc-bg-teal-4">**Implicancias y próximos pasos**</span>    
+
+???
+
+---
+# Implicancias
+
+Práctica
+- Factores que determinan diversidad
+- Factores que influyen en documetnacion de calidad
+- Nuevas formas de evaluar proyectos HCA
+
+Políticas
+- Integrar OSH como eje transversal
+- Conexion entre comunidades apertura ciencia 
+- Fomento en educación
+
+Investigación
+- mejor evaluacion de capacidades
+- explorar factores que favorecen este tipo de OSH en academia 
+- diferencias norte sur
+- potencial disruptivo en academia 
+
+---
+class: center
+
+
+.north[<br><br><img src="imgs/unq.png" width="16%"> <img src="imgs/resized.jpg" width="25%"><br><br><br>]
+#### <big><span class="oc-bg-teal-4">**¡Muchas Gracias!**</span></big>
+<br><br><br><br><br>
+.right[<i class="ri-global-fill"></i> julieta.aranc.io <br><i class="ri-mail-fill"></i> jarancio@unsam.edu.ar<br><i class="ri-twitter-fill"></i> @cassandreces]
+
+
 
     </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-    </script>
+
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script src="js/vue.js"></script>
     <script>
-      var slideshow = remark.create({ ratio: "16:9" });
+      var slideshow = remark.create({ ratio: "16:9", slideNumberFormat: "" });
     </script>
   </body>
 </html>
